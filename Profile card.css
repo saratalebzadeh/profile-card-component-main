@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body{
+    padding-top: 2.5rem;
+    font-family: "Montserrat";
+}
+@media screen and (max-width:375px) {
+    body{
+        padding-top: .5rem;
+    }
+    
+}
+.parent{
+    background: #03404c url(./images/bg-pattern-bottom.svg) 192% -61% no-repeat;
+    height: 550px;
+    margin: 1.5rem;
+}
+@media screen and (max-width:375px) {
+    .parent{
+        margin: .5rem;
+    }
+    
+}
+.background{
+    background: url(./images/bg-pattern-top.svg) -89% 100% no-repeat;
+}
+.profile__card{
+    width: 25%;
+    margin: auto;
+    padding-top: 6rem;
+    height: 326px;
+    position: relative;
+}
+@media screen and (max-width:375px) {
+    .profile__card{
+        width: 90%;
+    }
+}
+.profile__back img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.profile{
+    background-color: #eee;
+    height: 100%;
+    border-radius: 0 0 10px 10px;
+    font-family: "Montserrat";
+}
+.name{
+    padding-top: 3.5rem;
+    text-align: center;
+    font-size: larger;
+}
+@media screen and (max-width:375px) {
+    .name{
+        padding-top: 3.9rem;
+    }
+}
+.name h4{
+    margin-bottom: .5rem;
+    transition: transform ease-in-out .5s;
+}
+.name h4:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.name h4 span{
+    opacity: .7;
+}
+.name > span{
+    opacity: .7;
+}
+.box{
+    text-align: center;
+    transition: transform ease-in .5s;
+}
+.box:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.numbers{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding: 3rem 2.5rem;
+}
+@media screen and (max-width:375px) {
+    .numbers{
+        padding: 3rem 1.2rem 0;
+    }
+}
+.flexbox{
+    margin-bottom: .5rem;
+    font-size: larger;
+}
+.flexp{
+    opacity: .7;
+}
+.profile__img{
+    position: absolute;
+    left: 111px;
+    bottom: 45px;
+}
+@media screen and (max-width:375px){
+    .profile__img{
+        left:86px;
+        bottom: 71px;
+    }
+}
+.profile__img img{
+    border-radius: 50px;
+    border: 3px solid white;
+}

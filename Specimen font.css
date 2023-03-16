@@ -1,0 +1,13 @@
+
+@font-face {
+    font-family:"specimen";
+    src: url(./fonts/static/Outfit-Thin.ttf) format(true-typefont);
+    src: url(./fonts/static/Outfit-ExtraLight.ttf) format(true-typefont);
+    src: url(./fonts/static/Outfit-Light.ttf) format(true-typefont);
+    src: url(./fonts/static/Outfit-Regular.ttf) format(true-typefont);
+    src: url(./fonts/static/Outfit-Medium.ttf) format(true-typefont);
+    src: url(./fonts/static/Outfit-SemiBold.ttf) format(true-typefont);
+    src: url(./fonts/static/Outfit-Bold.ttf) format(true-typefont);
+    src: url(./fonts/static/Outfit-ExtraBold.ttf) format(true-typefont);
+    src: url(./fonts/static/Outfit-Black.ttf) format(true-typefont);
+}
